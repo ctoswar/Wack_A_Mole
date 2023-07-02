@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "bl/c+CClPleqxqWfQXgS1hteBuLg5PT1EST+dzgE+z3Xh0zMNzDmv+7lOYODnfTpI48jvKC3BpmZlrnGMrrgxA==",
+  "success": true,
+  "projectFilePath": "B:\\c#\\Wack-A-Sora\\Wack-A-Sora\\Wack-A-Sora\\Wack-A-Sora.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ctos1\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ctos1\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ctos1\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ctos1\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ctos1\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

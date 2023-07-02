@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wack_A_Sora.MainPage" NavigationPage.HasNavigationBar="False" BackgroundImageSource="back_1.jpg">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" >
+            <!--<StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10,0,0">
+                <Label Text="Wack" TextColor="#9884DA" FontSize="30"/>
+                <Label Text="-" TextColor="#FDF7E8" FontSize="30"/>
+                <Label Text="A" TextColor="#9884DA" FontSize="30"/>
+                <Label Text="-" TextColor="#FFEE64" FontSize="30"/>
+                <Label Text="SORA" TextColor="#DDBBF5" FontSize="30"/>
+            </StackLayout>-->
+            
+            <AbsoluteLayout>
+                <Label Grid.Row ="0" Grid.Column="1" Text="" HorizontalTextAlignment="End" TextColor="White" FontSize="30" x:Name="Timer1" Padding="220,18,0,0">
+                    
+                </Label>
+                <Label Margin="10,20,0,0" x:Name="score" TextColor="White" Text="Score = 0" HorizontalTextAlignment="Center" FontSize="30"/>
+                
+                <Label Margin="10,68,0,0" TextColor="#894BBF" Text="Shiro" FontSize="20"/>
+                <Image Margin="65,63,0,0" Source="shiro.png" WidthRequest="55"/>
+
+                <Label Margin="10,123,0,0" TextColor="White" Text="Sora" FontSize="20"/>
+                <Image Margin="50,120,0,0" Source="sora.png" WidthRequest="85"/>
+            </AbsoluteLayout>
+
+            <Grid Margin="0,10,10,20">
+                <ImageButton x:Name="Tmole1" Grid.Column="0" Grid.Row="0" Clicked="Clicked" BackgroundColor="Transparent"/>
+                <ImageButton x:Name="Tmole2" Grid.Column="1" Grid.Row="0" Clicked="Clicked" BackgroundColor="Transparent"/>
+                <ImageButton x:Name="Tmole3" Grid.Column="2" Grid.Row="0" Clicked="Clicked" BackgroundColor="Transparent"/>
+
+                <ImageButton x:Name="Mmole1" Grid.Column="0" Grid.Row="1" Clicked="Clicked" BackgroundColor="Transparent"/>
+                <ImageButton x:Name="Mmole2" Grid.Column="1" Grid.Row="1" Clicked="Clicked" BackgroundColor="Transparent"/>
+                <ImageButton x:Name="Mmole3" Grid.Column="2" Grid.Row="1" Clicked="Clicked" BackgroundColor="Transparent"/>
+
+                <ImageButton x:Name="Bmole1" Grid.Column="0" Grid.Row="2" Clicked="Clicked" BackgroundColor="Transparent"/>
+                <ImageButton x:Name="Bmole2" Grid.Column="1" Grid.Row="2" Clicked="Clicked" BackgroundColor="Transparent"/>
+                <ImageButton x:Name="Bmole3" Grid.Column="2" Grid.Row="2" Clicked="Clicked" BackgroundColor="Transparent"/>
+            </Grid>
+
+            
+
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
+    

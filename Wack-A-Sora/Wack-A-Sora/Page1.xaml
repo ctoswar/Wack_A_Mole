@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wack_A_Sora.Page1" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="0,240,0,0">
+                <Image Source="nogamelogo.png" HorizontalOptions="CenterAndExpand" WidthRequest="198" />
+
+                <Label FontFamily="nogame" HorizontalOptions="Center" TextColor="White" FontSize="25" Text="Wack-A-Sora"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="Easy" FontFamily="nogame" FontSize="40" Text="Easy" Clicked="Start_Clicked" Background="Transparent"  Margin="10,30,0,0"></Button>
+                <Button x:Name="Medium" FontFamily="nogame" FontSize="40" Text="Medium" Clicked="Medium_Clicked" Background="Transparent"  Margin="10,30,0,0"></Button>
+                <Button x:Name="Hard" FontFamily="nogame" FontSize="40" Text="Hard" Clicked="Hard_Clicked" Background="Transparent"  Margin="10,30,0,0"></Button>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
